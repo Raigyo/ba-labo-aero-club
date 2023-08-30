@@ -1,0 +1,90 @@
+Prérequis :
+
+- Tout le monde peut s'inscrire sur le site de l'aéro-club.
+- Tout le monde peut consulter son dashboard.
+
+
+Pour réserver un vol, libre ou qualifiant, il faut :
+
+- Etre ordre de cotisation.
+- Etre en ordre de certificat médical.
+
+Pour réserver un vol libre, il faut en plus :
+
+- Posséder au moins un brevet dans au moins une catégorie d'appareil.
+- On peut plannifier plusieurs séances pour les catégories pour lesquelles on a un brevet.
+
+Pour réserver une séance de formation (avec instructeur) sur une catégorie d'appareil, il faut :
+
+- Ne pas avoir déjà une formation en cours sur une autre catégorie d'appareils.
+- On peut plannifier plusieurs séances au sein d'une formation sur une catégorie d'appareil.
+
+Quel que soit le type de vol, le SI ne permettra pas de sélectionner des dates où il pas d'avions disponibles (déjà pris, en maintenance, jour de fermeture...).
+
+Egalement, pour les vols qualifiants, s'il n'y a pas ou plus de formateurs prévus dans les plannings, les dates ne seront pas disponibles non plus dans l'agenda.
+
+Afin de prévenir les abus et éviter les gros problèmes logistiques:
+- Il n'est possible d'annuler une réservation de vol que par téléphone. Si elle à lieu après 48h ou en cas d'absence le vol n'est pas remboursé.
+- Une séance n'est validée que si le payement est accepté.
+
+
+---
+
+Scénario 1 : John Doe
+
+- Il est en ordre de cotisation.
+- Il est en ordre de certificat médical.
+- Il possède deux brevets de pilotage.
+- Il suit une formation.
+
+Il peut donc :
+
+- Consulter son dashboard.
+- Réserver un vol libre pour les deux catégories d'appareil pour lesquels il a le brevet.
+- Continuer sa formation en cours.
+
+---
+
+Scénario 2 : Cathy Smith
+
+- Elle est en ordre de cotisation.
+- Elle est en ordre de certificat médical.
+- Elle ne possèdè aucun brevet de pilotage.
+- Elle ne suit pas une formation.
+
+Elle peut donc :
+
+- Consulter son dashboard.
+- S'inscrire à une et une seule formation.
+
+Après inscription elle peut :
+
+- Continuer la formation entammée et planifier plusieurs séances (en recommançant le processus de réservation).
+
+---
+
+Scénario 2 : Cathy Smith (CTA)
+
+- Elle est en ordre de cotisation.
+- Elle est en ordre de certificat médical.
+- Elle ne possèdè aucun brevet de pilotage.
+- Elle ne suit pas une formation.
+
+Elle ne peut  :
+
+- Réserver un vol libre.
+
+Le SI va luit proposer de suivre une formation si elle choisit un vol libre.
+
+---
+
+Scénario 3 : John Smith
+
+- Il n'est pas en ordre de cotisation.
+- Il n'est pas en ordre de certificat médical.
+
+Il peut donc:
+- Consulter son dashboard.
+- Se mettre en ordre administratif.
+
+Il n'a pas pas accès au réservations de vols libres ni aux formations.
