@@ -232,16 +232,16 @@ _Les diagrammes de cas d'utilisation sont des diagrammes UML utilisés pour une 
 
 **Diagramme de packages de Cas d’utilisation**
 
-![UML Use case : Diagramme de packages de Cas d’utilisation](07a-uml-use-cases-diagram.jpg)
+![UML Use case : Diagramme de packages de Cas d’utilisation](07a-uml-use-cases-diagram.png)
 
-_Téléchargement :_ [UML Use case : Diagramme de packages de Cas d’utilisation - Image](07a-uml-use-cases-diagram.jpg)
+_Téléchargement :_ [UML Use case : Diagramme de packages de Cas d’utilisation - Image](07a-uml-use-cases-diagram.png)
 
 
 **Diagramme de cas d’utilisation par package**
 
-![UML Use case : Diagramme de packages de Cas d’utilisation](07a-uml-use-cases-diagram-pakages.jpg)
+![UML Use case : Diagramme de packages de Cas d’utilisation](07b-uml-use-cases-diagram-pakages.png)
 
-_Téléchargement :_ [UML Use case : Diagramme de packages de Cas d’utilisation - Image](07a-uml-use-cases-diagram-pakages.jpg)
+_Téléchargement :_ [UML Use case : Diagramme de packages de Cas d’utilisation - Image](07b-uml-use-cases-diagram-pakages.png)
 
 ## 10. UML : scenarii d'études de cas d'utilisation (UML Use Cases Scenarii)
 
